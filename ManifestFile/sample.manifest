@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0">
+  <assemblyIdentity type="win32" name="sample" version="1.0.0.0"></assemblyIdentity>
+  <file name="Microsoft.AI.Skills.SkillInterfacePreview.dll">
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillExecutionDeviceCPU" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillExecutionDeviceDirectX" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorFloatValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorIntValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorBooleanValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorStringValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorInt8Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorInt16Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorInt64Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorUInt8Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorUInt16Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorUInt32Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorUInt64Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorFloat16Value" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorDoubleValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureImageValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureMapValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeature" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillInformation" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureTensorDescriptor" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureImageDescriptor" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.SkillFeatureMapDescriptor" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.SkillInterfacePreview.VisionSkillBindingHelper" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+  </file>
+  <file name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.dll">
+    <activatableClass name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.ObjectDetectorResult" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.ObjectDetectorResultListDescriptor" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.ObjectDetectorResultListValue" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.ObjectDetectorBinding" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.ObjectDetectorDescriptor" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+    <activatableClass name="Microsoft.AI.Skills.Vision.ObjectDetectorPreview.ObjectDetectorSkill" threadingModel="both" xmlns="urn:schemas-microsoft-com:winrt.v1"></activatableClass>
+  </file>
+</assembly>
